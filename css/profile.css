@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/sign-up.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.frist-form {
+  width: 100%;
+}
+
+.frist-form .container {
+  width: 30%;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  z-index: 1;
+}
+.frist-form .container h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #007bff;
+}
+.frist-form .container .photo {
+  margin: 20px 0 20px;
+}
+.frist-form .container .photo img {
+  width: 40%;
+  border-radius: 50%;
+}
+.frist-form .container h3 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.frist-form .container h3 span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.frist-form .container a {
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  background: transparent;
+  padding: 8px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  display: inline-block;
+  margin: 20px auto 0;
+  transition: 0.4s ease-in-out !important;
+}
+.frist-form .container a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .frist-form .container {
+    width: 100%;
+  }
+}
